@@ -12,9 +12,10 @@
 / {
     macros {
         macro_spotlight: macro_spotlight {
-            bindings = <
-                &kp LCMD &kp SPACE
-            >;
+            compatible = "zmk,behavior-macro";
+            label = "SPOTLIGHT";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp SPACE>;
         };
     };
 };

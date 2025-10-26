@@ -4,6 +4,11 @@
 2. Push to repo
 3. Wait until Github action `build` has completed
 4. Download `firmware` from completed action
+5. Unzip `firmware` locally
+6. Connect one half of the keyboard with cable
+7. Use mobile sim card ejector (little pin) to double click and set the keyboard into bootloader mode
+8. Drag `uf2` file into keyboard
+9. Repeat for second keyboard
 
 ## Generating svg image
 
