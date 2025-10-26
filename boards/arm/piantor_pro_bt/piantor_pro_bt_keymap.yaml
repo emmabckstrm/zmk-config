@@ -22,8 +22,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - \
+  - '='
   - LSHFT
   - Z
   - X
@@ -38,11 +38,11 @@ layers:
   - ESC
   - LALT
   - LCMD
-  - {t: SPACE, h: EXTRA 1}
-  - {t: RET, h: SYMBOL}
-  - NUMBER
-  - ESC
-  NUMBER:
+  - SPACE
+  - RET
+  - NUMBER / ÅÄÖ
+  - {t: ESC, h: MEDIA}
+  NUMBER / ÅÄÖ:
   - +
   - '1'
   - '2'
@@ -68,66 +68,66 @@ layers:
   - ''
   - ''
   - LSFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&macro_spotlight'
   - ;
   - ''''
   - '['
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
   - {t: ▽, type: trans}
   - SPACE
-  - LGUI
+  - RET
   - {type: held}
-  - SPACE
-  SYMBOL:
-  - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - BSPC
-  - LCTRL
+  - ESC
+  MEDIA:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - '`'
-  - LSHFT
+  - {t: ▽, type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - LGUI
   - {t: ▽, type: trans}
-  - SPACE
-  - {t: RET, type: held}
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   EXTRA 1:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

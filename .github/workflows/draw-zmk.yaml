@@ -11,7 +11,7 @@ on:
       config_path:
         description: 'Path to the keymap-drawer configuration file, ignored if non-existent'
         type: string
-        default: 'keymap_drawer.config.yaml'
+        default: 'keymap_drawer-config.yaml'
       west_config_path:
         description: 'Path to the folder containing west.yml, e.g. `config`. Set to empty to skip fetching modules from west.yml'
         type: string
